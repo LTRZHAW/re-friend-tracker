@@ -201,75 +201,43 @@ export class GuiModel {
                 {
 
                     "id": "AddActivityForm",
-
                     "title": "Activity",
-
                     "url": "/friend/:friendKey/activity",
-
                     "formFieldList": [
-
                         {
-
                             "id": "activity",
-
                             "type": "autocomplete",
-
                             "name": "Activity",
-
                             "url": "/activity",
-
                             "defaultKey": "activityKey",
-
                             "readonly": true,
-
                             "form": "ActivityForm",
-
                             "width": 2
-
                         },
-
                         {
-
                             "type": "deleteButton",
 
                             "name": "Delete"
-
                         },
-
                         {
-
                             "type": "cancelButton",
 
                             "name": "Cancel"
-
                         },
-
                         {
-
                             "type": "okButton",
-
                             "name": "Ok"
-
                         }
-
                     ]
-
                 },
-
             ],
 
             "pageList": [
-
                 {
-
                     "id": "mainmenu",
-
                     "name": "MainMenu",
-
                     "elementList": [
-
                         {
-
                             "type": "button",
 
                             "name": "Friends",
@@ -318,7 +286,7 @@ export class GuiModel {
 
                             "icon": "fa-running",
 
-                            "color": "pumpkin",
+                            "color": "green",
 
                             "page": "activitypage",
 
@@ -364,7 +332,7 @@ export class GuiModel {
 
                             "icon": "fa-weixin",
 
-                            "color": "wisteria",
+                            "color": "green",
 
                             "search": true,
 
@@ -504,7 +472,7 @@ export class GuiModel {
 
                             "icon": "fa-user",
 
-                            "color": "green",
+                            "color": "blue",
 
                             "form": {
 
@@ -554,7 +522,7 @@ export class GuiModel {
 
                             "icon": "fa-user",
 
-                            "color": "green",
+                            "color": "blue",
 
                             "form": {
 
@@ -572,7 +540,7 @@ export class GuiModel {
 
                             "icon": "fa-running",
 
-                            "color": "pumpkin",
+                            "color": "wisteria",
 
                             "form": {
 
